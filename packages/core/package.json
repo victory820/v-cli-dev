@@ -1,6 +1,6 @@
 {
   "name": "@v-cli-dev/core",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "核心内容",
   "author": "victor <victor.chen@geekbang.org>",
   "homepage": "",
@@ -17,7 +17,11 @@
     "lib"
   ],
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": ""
   },
-  "gitHead": "fdfd42a7d1cc9cb7c25637b0baaef03c7769f3f6"
+  "dependencies": {
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
