@@ -1,11 +1,14 @@
 {
   "name": "@v-cli-dev/core",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "核心内容",
   "author": "victor <victor.chen@geekbang.org>",
   "homepage": "",
   "license": "ISC",
   "main": "lib/core.js",
+  "bin": {
+    "v-cli-dev": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -17,6 +20,5 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "utils": "^0.3.1"
   }
 }
